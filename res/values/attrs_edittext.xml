@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Vedittext">
+        <!-- 自定义正则表达式 -->
+        <attr name="regex" format="string" />
+        <!-- 自定义正则表达式的提示格式 -->
+        <attr name="regexrule" format="string"></attr>
+        <!-- 是否可以为空 -->
+        <attr name="require" format="boolean"></attr>
+        <attr name="maxvalue" format="float"/>
+        <attr name="minvalue" format="float"/>
+        <!-- 保留小数的位数 -->
+        <attr name="decimal" format="integer"/>
+    </declare-styleable>
+</resources>
